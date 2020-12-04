@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./Image/clock.png">
+</head>
+<body>
+     <div class="clock">
+            <span id="time-hour"></span>
+            <span id="time-minute"></span>
+            <span id="time-second"></span>
+    </div>
+    <div class="songs">
+            <audio src="./songs/alarm.mp3" class="song"></audio>
+    </div>
+    <div class="time">
+            <input type="text" class="hours" placeholder="H">
+    </div>
+    <div class="time">
+            <input type="text" class="minutes" placeholder="M">
+    </div>
+    <div class="time">
+            <input type="text" class="seconds" placeholder="S">
+    </div> 
+    <div class="alarm-box"></div>
+    
+    <script src="./app.js"></script>
+</body>
+</html>
